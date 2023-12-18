@@ -56,3 +56,31 @@
 .actions button:active {
   background-color: #00000021;
 }
+
+@media (max-width: 480px) {
+  .item {
+    padding: 0.7rem;
+  }
+  .item h3 {
+    font-size: 1.2rem;
+  }
+  .quantity {
+    margin-top: 0.6rem;
+  }
+  .quantity span {
+    font-size: 1.2rem;
+  }
+  .price {
+    width: 40%;
+    font-size: 1.2rem;
+  }
+  .itemprice {
+    font-size: 0.8rem;
+  }
+  .actions {
+    margin-top: 1rem;
+  }
+  .actions button {
+    padding: 0rem 0.55rem;
+  }
+}

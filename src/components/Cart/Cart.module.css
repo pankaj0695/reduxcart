@@ -16,3 +16,9 @@
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 480px) {
+  .cart h2 {
+    font-size: 1.1rem;
+  }
+}

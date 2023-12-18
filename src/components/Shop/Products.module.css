@@ -11,3 +11,11 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 480px) {
+  .products h2 {
+    margin: 1.3rem auto;
+    font-size: 1.2rem;
+    word-spacing: 0.3rem;
+  }
+}
